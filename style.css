@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.image{
+    width: 125px;
+    height: 55px;
+    background-position: 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 125px 55px;
+    margin-left: 300px;
+}
+
+.item{
+    border-left: 0.1px solid wheat;
+}
+.item_hot {
+    
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+figure{
+    width: 100%;
+    line-height: 0;
+}
+
+.img1{
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.new-hot{
+    display: flex;
+}
+
+.card-news{
+    display: flex;
+    justify-content: start;
+}
+
+.nav-item:hover{
+    opacity: 0.6;
+}
