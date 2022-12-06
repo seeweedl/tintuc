@@ -1,0 +1,34 @@
+.row-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
+    height: 50px;
+}
+
+.img-news{
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 auto 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    color: #888;
+    font-size: 12px;
+    background: #f7f7f7;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
